@@ -1,8 +1,13 @@
 aid: newmo
 name: newmo
-description: 'newmo is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'newmo (newmo株式会社, "ニューモ") is a Japanese mobility company with the mission
+  "移動で地域をカラフルに" — coloring regions through movement. It modernizes regional transportation
+  through a consumer ride-hailing app and taxi service (newmo-taxi.jp), driver recruitment
+  and dispatch, and its newmo Autonomy initiative (newmo.ai), which since 2025 has run
+  Level 4 autonomous-driving taxi trials spanning safety, remote monitoring, operations
+  design, and vehicle integration. newmo is a consumer transportation service rather than
+  a developer/API platform; probing found no public API, developer portal, documentation,
+  or well-known discovery surface. Backed by DCM Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/newmo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://newmo.me/images/ogp.webp
 tags:
 - Company
 - Consumer
+- Mobility
+- Transportation
+- Ride Hailing
+- Taxi
+- Autonomous Vehicles
+- Japan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,14 @@ maintainers:
 common:
 - type: Website
   url: https://newmo.me/
+- type: Blog
+  url: https://note.com/newmohq
+- type: PrivacyPolicy
+  url: https://newmo.me/pp
+- type: DomainSecurity
+  url: security/newmo-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
